@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3418046139335652373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3418046139335652375}
+  - component: {fileID: 3418046139335652374}
+  m_Layer: 0
+  m_Name: Cursor Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3418046139335652375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418046139335652373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3418046139335652374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3418046139335652373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c04c1cb28736469dbc77e5c23593d7bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+  - image:
+    - {fileID: 2800000, guid: c6025238667c3a843b2080de804530ba, type: 3}
+    - {fileID: 2800000, guid: 8c215b197f28f11489af4d8e42c63880, type: 3}
+    - {fileID: 2800000, guid: 5680264d29bcbe64ba0d12d81a96f827, type: 3}
+    - {fileID: 2800000, guid: 306944d38f41a8042b0fafa853cbdb01, type: 3}
+    - {fileID: 2800000, guid: 5680264d29bcbe64ba0d12d81a96f827, type: 3}
+    - {fileID: 2800000, guid: 8c215b197f28f11489af4d8e42c63880, type: 3}
+    hotSpot: {x: 16, y: 16}
+    timePerFrame: 0.2
+  objects:
+  - {fileID: 11400000, guid: 733db4ba6e0d4384bb6ef16446108590, type: 2}
+  currentId:
+    referenceType: 1
+    objectIndex: 0
+    classIndex: 0
+    imageIndex: 0
+  initialized: 1
+  currentTime: 0
+  timePerFrame: 0

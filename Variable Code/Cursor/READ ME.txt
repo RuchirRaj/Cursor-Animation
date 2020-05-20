@@ -1,0 +1,8 @@
+This Package is meant to help you understand the basics of how to animate you cursor at runtime dynamically by scripts
+This Package contains :-
+-One CursorManager Class to manage showing up the cursor you choose
+-Six sample cursors Textures
+-An example Script to show how to change cursors at runtime
+-A Demo scene showing how to use the asset
+You can open each Script and read the comment at each parameter explaning what it does
+Try playing around with those values
