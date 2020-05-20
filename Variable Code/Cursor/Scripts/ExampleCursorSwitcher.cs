@@ -11,21 +11,18 @@ namespace VariableCode.Cursor
 
         private int _current;
 
-        // Update is called once per frame
-        void Update()
+
+        public void ChangeType()
         {
-            if (Input.GetKeyDown(switchKey))
+            if (_current == 0)
             {
-                if (_current == 0)
-                {
-                    _current = 1;
-                    CursorManager.EnsureCreation().SetActiveCursor(secondId);
-                }
-                else
-                {
-                    _current = 0;
-                    CursorManager.EnsureCreation().SetActiveCursor(firstId);
-                }
+                _current = 1;
+                CursorManager.EnsureCreation().SetActiveCursor(secondId);
+            }
+            else
+            {
+                _current = 0;
+                CursorManager.EnsureCreation().SetActiveCursor(firstId);
             }
         }
     }
